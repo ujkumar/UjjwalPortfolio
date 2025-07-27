@@ -95,20 +95,21 @@ const Hero = () => {
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
               Hi, I'm{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 animate-gradient">
-                Alex Johnson
+                Ujjwal Kumar
               </span>
             </h1>
             
             <div className="flex items-center justify-center gap-2 text-xl md:text-2xl text-gray-300 mb-8">
               <MapPin className="w-6 h-6 text-blue-400" />
-              <span>San Francisco, CA</span>
+              <span>Patna, Bihar</span>
             </div>
             
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed">
               A passionate{' '}
-              <span className="text-blue-400 font-semibold">Full Stack Developer</span>{' '}
-              crafting beautiful and functional web experiences with cutting-edge technologies.
-              I transform ideas into digital reality with clean code and stunning design.
+              <span className="text-blue-400 font-semibold">AWS DevOps Engineer</span>{' '}
+              with a strong full-stack background, passionate about building scalable, resilient, and automated infrastructure. 
+              I bridge the gap between development and operations, enabling rapid delivery through CI/CD, containerization, and cloud-native practices. 
+              I turn complex ideas into reliable systems using clean code, robust pipelines, and modern DevOps tooling.
             </p>
           </div>
           
@@ -133,9 +134,9 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex items-center justify-center gap-8 mb-16">
             {[
-              { icon: Github, href: 'https://github.com', color: 'hover:text-gray-300' },
-              { icon: Linkedin, href: 'https://linkedin.com', color: 'hover:text-blue-400' },
-              { icon: Mail, href: 'mailto:alex@example.com', color: 'hover:text-purple-400' }
+              { icon: Github, href: 'https://github.com/ujkumar', color: 'hover:text-gray-300' },
+              { icon: Linkedin, href: 'https://www.linkedin.com/in/ujjwal-kumar-ab65091a4/', color: 'hover:text-blue-400' },
+              { icon: Mail, href: 'ujkumar11@gmail.com', color: 'hover:text-purple-400' }
             ].map(({ icon: Icon, href, color }, index) => (
               <a 
                 key={index}
